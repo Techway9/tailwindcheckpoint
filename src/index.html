@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body>
+    <!-- Header section -->
+    <header class="bg-blue-950 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+
+            <!-- Blog Name-->
+            <div class="text-3xl font-bold">
+                <a href="#">Techway</a>
+            </div>
+
+            <!-- Navbar -->
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#" class="hover:text-blue-300">Home</a></li>
+                    <li><a href="#" class="hover:text-blue-300">About</a></li>
+                    <li><a href="#" class="hover:text-blue-300">Blog</a></li>
+                    <li><a href="#" class="hover:text-blue-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Featured Posts Section -->
+    <section id="featured" class="container mx-auto my-10">
+        <div>
+            <h2 class="text-3xl font-semibold text-center mb-8">Featured Posts</h2>
+
+            <!-- <section id="featured" class="container mx-auto my-10">
+    <h2 class="text-3xl font-bold text-center mb-8">Featured Posts</h2> -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="https://th.bing.com/th/id/OIP.k0Ab_tCFmtyeDWoBYzrAuAHaHa?pid=ImgDet&w=207&h=207&c=7&dpr=1.5"
+                        alt="Post 1" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Technology</h3>
+                        <p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                            similique, cum quis delectus perspiciatis ipsam iste a eum quos ipsum, in, nesciunt vitae
+                            repellat voluptas cumque et animi explicabo quo.</p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="https://2.bp.blogspot.com/-M2OuHlmer4I/XORKrbCx2VI/AAAAAAAAFO4/p3Dc54uq0zEMooZo4FDWBKQvB4i37UAHACLcBGAs/s1600/41820514-lifestyle-word-cloud-fitness-sport-health-concept.jpg"
+                        alt="Post 2" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Lifestyle</h3>
+                        <p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                            similique, cum quis delectus perspiciatis ipsam iste a eum quos ipsum, in, nesciunt vitae
+                            repellat voluptas cumque et animi explicabo quo.</p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="https://th.bing.com/th/id/OIP.9w0x4xNMZx-ER2p8PP0gYgHaE7?w=283&h=188&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Post 3" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Business</h3>
+                        <p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                            similique, cum quis delectus perspiciatis ipsam iste a eum quos ipsum, in, nesciunt vitae
+                            repellat voluptas cumque et animi explicabo quo.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="https://th.bing.com/th/id/OIP.Xy2MS-5rRVCbOl6EqfddUQHaE8?w=251&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                        alt="Post 2" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Travel</h3>
+                        <p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                            similique, cum quis delectus perspiciatis ipsam iste a eum quos ipsum, in, nesciunt vitae
+                            repellat voluptas cumque et animi explicabo quo.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Category Section -->
+    <section id="categories" class="bg-gray-50 py-10">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Categories</h2>
+            <div class="flex justify-center space-x-4">
+                <button
+                    class="bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-600 focus:outline-none">Technology</button>
+                <button
+                    class="bg-green-500 text-white py-2 px-4 rounded-full hover:bg-green-600 focus:outline-none">Lifestyle</button>
+                <button
+                    class="bg-red-500 text-white py-2 px-4 rounded-full hover:bg-red-600 focus:outline-none">Business</button>
+                <button
+                    class="bg-purple-500 text-white py-2 px-4 rounded-full hover:bg-purple-600 focus:outline-none">Travel</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Recent Posts Section -->
+    <section id="recent" class="container mx-auto my-10">
+        <h2 class="text-3xl font-bold text-center mb-8">Recent Posts</h2>
+        <div class="space-y-4">
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <h3 class="font-bold text-lg">Technology</h3>
+                <p class="text-gray-500">Published on January 1, 2024</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <h3 class="font-bold text-lg">Lifestyle</h3>
+                <p class="text-gray-500">Published on February 15, 2024</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <h3 class="font-bold text-lg">Travel</h3>
+                <p class="text-gray-500">Published on March 10, 2024</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Subscription Form -->
+    <section id="subscribe" class="bg-blue-800 text-white py-10">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Subscribe to Our Newsletter</h2>
+            <p class="mb-6">Get the latest updates and posts delivered to your inbox.</p>
+            <form class="flex justify-center space-x-2">
+                <input type="email" placeholder="Your email address"
+                    class="p-3 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <button type="submit"
+                    class="bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-r-lg">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <p>Techway &copy; 2024</p>
+            <div class="flex space-x-4 mt-4 md:mt-0">
+                <a href="#" class="text-gray-400 hover:text-white">Facebook</a>
+                <a href="#" class="text-gray-400 hover:text-white">Twitter</a>
+                <a href="#" class="text-gray-400 hover:text-white">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
